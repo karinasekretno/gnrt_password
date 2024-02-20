@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Генератор паролей</title>
     <link rel="stylesheet" href="style.css">
+    <link href="fontawesome-free-6.5.1-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-6.5.1-web/css/brands.css" rel="stylesheet">
+    <link href="fontawesome-free-6.5.1-web/css/solid.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <h2 class="title">Генератор пароля</h2>
         <div class="result">
             <div class="result__info right">кликнуть для копирования</div>
-            <div class="result__info left">копировать</div>
+            <div class="result__info left">скопировано</div>
             <div class="result__viewbox" id="result">РЕЗУЛЬТАТ</div>
-            <button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
+            <button id="copy-btn" style="--x: 0; --y: 0"><i class="fa-solid fa-copy"></i></button>
         </div>
         <div class="length range__slider" data-min="4" data-max="32">
             <div class="length__title field-title" data-length='0'>Длинна</div>
@@ -44,6 +47,7 @@
     </div>
     
     
+    <script src="script.js"></script>
     
     
 </body>
